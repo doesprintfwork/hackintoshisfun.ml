@@ -8,19 +8,25 @@ body {
     font-weight: 400;
 }
 
+.head {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    height: 123.5px;
+    z-index: 1;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
     background-color: #1f1f1f;
     width: auto;
-    padding: 25px 50px;
+    padding: 40px 50px;
     align-content: center;
 }
 
-h1 {
-    margin: 0;
-    font-size: 35px;
-    color: white;
+header img {
+    height: 40px;
     margin-right: auto;
 }
 
@@ -33,4 +39,30 @@ header a {
     color: white;
     text-decoration: none;
     font-family: "Red Hat Display";
+}
+
+#intro h1 {
+    color: #eeeeee;
+    font-size: 100px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    width: auto;
+    margin-top: 123.5px;
+    position: relative;
+    z-index: 0;
+}
+
+#intro {
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+    background-color: #555555;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
