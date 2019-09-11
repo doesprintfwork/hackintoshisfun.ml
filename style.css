@@ -25,6 +25,7 @@ h1 {
 }
 
 header a {
+    margin: 0 20px;
     padding: 5px 10px;
     background-color: #777777;
     height: auto;
