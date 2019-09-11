@@ -44,25 +44,52 @@ header a {
 #intro h1 {
     color: #eeeeee;
     font-size: 100px;
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
+}
+
+#intro p {
+    text-align: center;
+    font-size: 25px;
 }
 
 .main {
     display: flex;
     width: auto;
-    margin-top: 123.5px;
+    margin-top: 123px;
     position: relative;
     z-index: 0;
+    flex-direction: column;
 }
 
 #intro {
-    width: 100%;
-    height: 100%;
-    padding: 20px 100px;
+    height: 375px;
     background-color: #555555;
     color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.selections div {
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    flex: 1;
+}
+
+.selections div h1 {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+#guides {
+    background: linear-gradient(0deg, rgba(126,122,195,1) 0%, rgba(132,132,237,1) 10%, rgba(0,212,255,1) 100%);
 }
