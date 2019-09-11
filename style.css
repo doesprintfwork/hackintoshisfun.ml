@@ -1,13 +1,14 @@
 html {
-    font-family: -apple-system, BlinkMacSystemFont, "Red Hat Display"
+    font-family: -apple-system, BlinkMacSystemFont, "Red Hat Display";
+    height: 100%;
 }
 
 body {
     padding: 0;
     margin: 0;
     font-weight: 400;
-    background-image: linear-gradient(0deg, rgba(61,61,61,1) 0%, rgba(121,121,121,1) 100%);
     height: 100%;
+    background-image: linear-gradient(0deg, rgba(121,121,121,1) 0%,rgba(110,110,110,1) 50%, rgba(121,121,121,1) 100%);
 }
 
 .head {
@@ -32,7 +33,12 @@ header img {
     margin-right: auto;
 }
 
-header a {
+#logo {
+    margin-right: auto;
+    background-color: transparent;
+}
+
+.nav {
     margin: 0 20px;
     padding: 5px 10px;
     background-color: #777777;
@@ -62,6 +68,7 @@ header a {
     position: relative;
     z-index: 0;
     flex-direction: column;
+    background: transparent;
 }
 
 #intro {
@@ -70,14 +77,16 @@ header a {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    animation: float 1.5s ease;
 }
 
 .selections {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: auto;
     padding: 20px 100px;
     justify-content: center;
+    animation: float 1.5s ease;
 }
 
 .selections a {
@@ -87,7 +96,7 @@ header a {
     font-weight: 200;
     display: block;
     transition: transform 0.25s;
-    margin: 30px;
+    margin: 0 30px;
 }
 
 .selections a:hover {
@@ -113,4 +122,30 @@ header a {
 
 a {
     text-decoration: none;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 150px;
+    color: white;
+    margin: 0 75px;
+    padding: 75px 0;
+    animation: float 1.5s ease;
+}
+
+.selguide {
+    height: auto;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+@keyframes float {
+    from {
+        margin-top: 50px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
 }
