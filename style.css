@@ -25,7 +25,9 @@ h1 {
 }
 
 header a {
-    background-color: #555555;
+    background-color: #777777;
     height: auto;
     font-size: 25px;
+    color: white;
+    text-decoration: none;
 }
