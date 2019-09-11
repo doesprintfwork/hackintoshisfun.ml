@@ -25,6 +25,7 @@ h1 {
 }
 
 header a {
+    padding: 5px;
     background-color: #777777;
     height: auto;
     font-size: 25px;
