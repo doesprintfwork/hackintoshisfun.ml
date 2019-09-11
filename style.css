@@ -13,10 +13,11 @@ header {
     justify-content: flex-end;
     background-color: #1f1f1f;
     width: 100%;
+    padding: 25px 50px;
+    align-content: center;
 }
 
 h1 {
-    padding: 25px 50px;
     margin: 0;
     font-size: 35px;
     color: white;
@@ -25,4 +26,6 @@ h1 {
 
 header a {
     background-color: #555555;
+    height: auto;
+    font-size: 25px;
 }
