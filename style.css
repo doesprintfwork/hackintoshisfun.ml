@@ -22,3 +22,7 @@ h1 {
     color: white;
     margin-right: auto;
 }
+
+header a {
+    background-color: #555555;
+}
