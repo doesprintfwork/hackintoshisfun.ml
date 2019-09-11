@@ -6,6 +6,8 @@ body {
     padding: 0;
     margin: 0;
     font-weight: 400;
+    background-image: linear-gradient(0deg, rgba(61,61,61,1) 0%, rgba(121,121,121,1) 100%);
+    height: 100%;
 }
 
 .head {
@@ -64,7 +66,6 @@ header a {
 
 #intro {
     height: 375px;
-    background-color: #555555;
     color: white;
     padding: 20px;
     display: flex;
@@ -75,21 +76,41 @@ header a {
     display: flex;
     flex-direction: row;
     height: 400px;
+    padding: 20px 100px;
+    justify-content: center;
 }
 
-.selections div {
+.selections a {
     padding: 50px;
     color: white;
     font-size: 20px;
     font-weight: 200;
-    flex: 1;
+    display: block;
+    transition: transform 0.25s;
+    margin: 30px;
 }
 
-.selections div h1 {
+.selections a:hover {
+    transform: scale(1.05);
+}
+
+.selections a h1 {
     font-size: 75px;
     font-weight: 400;
 }
 
 #guides {
-    background: linear-gradient(0deg, rgba(126,122,195,1) 0%, rgba(132,132,237,1) 10%, rgba(0,212,255,1) 100%);
+    background-image: linear-gradient(0deg, rgba(126,122,195,1) 0%, rgba(132,132,237,1) 10%, rgba(0,212,255,1) 100%);
+}
+
+#downloads {
+    background: linear-gradient(0deg, rgba(255,47,47,1) 0%, rgba(247,87,87,1) 13%, rgba(255,166,166,1) 100%);
+}
+
+#communities {
+    background: linear-gradient(0deg, rgba(197,28,255,1) 0%, rgba(209,87,247,1) 20%, rgba(208,139,255,1) 100%); 
+}
+
+a {
+    text-decoration: none;
 }
