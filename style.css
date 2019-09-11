@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: flex-end;
     background-color: #1f1f1f;
-    width: 100%;
+    width: auto;
     padding: 25px 50px;
     align-content: center;
 }
