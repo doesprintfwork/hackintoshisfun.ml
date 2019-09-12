@@ -129,7 +129,7 @@ a {
     font-size: 150px;
     color: white;
     margin: 0 75px;
-    padding: 75px 0;
+    padding: 100px 0;
     animation: float 1.5s ease;
 }
 
@@ -148,4 +148,20 @@ a {
         margin-top: 0;
         opacity: 1;
     }
+}
+
+.selections div {
+    display: flex;
+    flex-direction: row;
+}
+
+#guidelist {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    color: #dddddd;
+    margin: 25px 100px;
+    font-size: 40px;
 }
