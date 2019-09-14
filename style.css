@@ -134,7 +134,7 @@ a {
     animation: float 1.5s ease;
 }
 
-.selguide {
+.sel {
     height: auto;
     background-color: #1f1f1f;
     color: white;
@@ -157,7 +157,7 @@ a {
     flex-direction: row;
 }
 
-.guidelist {
+.list {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
@@ -223,7 +223,7 @@ a {
         font-size: 30px;
     }
 
-    .selguide h2 {
+    .sel h2 {
         font-size: 25px;
     }
 
@@ -296,8 +296,8 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-    .selguide h2 {
-        font-size: 20px;
+    .sel h2 {
+        font-size: 22.5px;
     }
 }
 
