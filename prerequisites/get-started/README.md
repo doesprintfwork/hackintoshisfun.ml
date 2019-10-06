@@ -18,16 +18,16 @@
 
 * **PLEASE READ THE PLIST BASICS OVER** [HERE](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with Clover Configurator** \(On macOS\)**,** [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(On Windows\) **or ProperTree config editor** \(Cross Platform Plist Editor, but difficult for people without any basis at programming\)**.**
   * _**DO NOT GET THE SAMPLE CONFIG.**_
-* **After reading the plist basics guide, go to** [this page](../amd-clover-config.plist/) **to make your own config.plist**.
+* **After reading the plist basics guide, go to** [this page](../amd-clover-config.plist/README.md) **to make your own config.plist**.
 * [AptioMemoryFix.efi](https://cdn.discordapp.com/attachments/251043252046659586/609234258732515329/AptioFix-R27-RELEASE.zip) **\(the one from the Clover Installer may be broken\)**
 
 ---
 
 # Network Installer Prerequisites
 
-!> <big><big><b>Apparently, the latest version of Clover doesn't inject Etherent kexts \(which is needed for network installer\). Make an [Offline Installer](offline-installer-prerequisites.md) instead!!!</b></big></big>
+!> <big><big><b>Apparently, the latest version of Clover doesn't inject Etherent kexts \(which is needed for network installer\). Make an [Offline Installer](#offline-installer-prerequisites) instead!!!</b></big></big>
 
-~~You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have, please make an~~ [~~**Offline Installer**~~](offline-installer-prerequisites.md) ~~instead.~~
+~~You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have, please make an~~ [~~**Offline Installer**~~](#offline-installer-prerequisites.md) ~~instead.~~
 
 ### ~~General~~
 
