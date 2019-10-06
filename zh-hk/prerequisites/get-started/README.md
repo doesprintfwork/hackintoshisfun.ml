@@ -4,7 +4,7 @@
 
 # 一般準備
 
-## 基本
+### 基本
 
 * **至少 4GB 的 USB（在線）或 8GB 的 USB（離線）**
 * 你的電腦需要的 Kexts（內核擴展）\([準備 Kexts](gathering-kexts.md)\)
@@ -18,7 +18,7 @@
 * **閱讀完後，到**[**這裡**](../amd-clover-config.plist/)**製作自己的 config**
 * \*\*\*\*[**AptioMemoryFix.efi**](https://cdn.discordapp.com/attachments/251043252046659586/609234258732515329/AptioFix-R27-RELEASE.zip) **\(Clover 自帶的版本可能會有問題\)**
 
-## 建議
+### 建議
 
 如果你是在 Windows 中製作安裝器的話，我建議你使用線上安裝
 
