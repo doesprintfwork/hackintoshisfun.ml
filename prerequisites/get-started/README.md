@@ -33,7 +33,7 @@ You'll need to have **LAN \(Ethernet\) connection** if you are making a **Networ
 
 ### Preparation for making an Offline Installer from macOS
 
-* [Clover install package](https://cloverdb.com) \(Get the r5092 as the latest version is broken\)
+* [Clover install package](https://cloverdb.com) \(Get r5092 as the latest version is broken\)
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
 
 ### Currently Broken ~~Preparation for making an Network Installer from Windows~~
