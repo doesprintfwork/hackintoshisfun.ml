@@ -1,3 +1,5 @@
+<h1 style='text-align: center'><img src='./logo.png' style='height: 150px' /></h1>
+
 * <big><b>Home</b></big>
     * [All-in-one Vanilla AMD Hackintosh Guide](/README.md)
 
