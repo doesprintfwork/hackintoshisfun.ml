@@ -85,4 +85,4 @@
 4. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../../prerequisites/get-started/README#gathering-kexts)\) to `EFI/EFI/CLOVER/kexts/Other` folder.
 5. You have finally made the installer! You can proceed to the [next part](../../actual-installation/actual-installation-part-1.md)! Yay! 🥳 
 
-![Steps 3 - 4 \(Copy files to Clover\)](../../.gitbook/assets/ezgif-4-7eed77270d16.gif)
+![Steps 3 - 4 \(Copy files to Clover\)](../../_images/ezgif-4-7eed77270d16.gif)
