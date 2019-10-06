@@ -31,4 +31,3 @@
 
 * <big><b>Credits</b></big>
     * [Credits](credits/credits.md)
-
