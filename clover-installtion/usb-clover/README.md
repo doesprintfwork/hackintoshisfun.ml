@@ -10,7 +10,7 @@
 2. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../../prerequisites/get-started/README#gathering-kexts)\) to `EFI/CLOVER/kexts/Other` folder. **Skip all of the SMC kexts** \(except VirtualSMC.kext and FakeSMC.kext\) as they might cause Kernel Panic\(s\).
 3. And delete the FakeSMC.kext. \(if you are using VirtualSMC.kext\)
 
-![Config and Kexts](../../.gitbook/assets/ezgif-4-106771fe2b5a.gif)
+[Config and Kexts](../../.gitbook/assets/ezgif-4-106771fe2b5a.gif)
 
 ## Part 2 - Drivers
 
