@@ -10,5 +10,5 @@
 
 !> **Only choose 10.13.6 or 10.14.6. Other versions are not supported.**
 
-![](https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/docsify/.gitbook/assets/gibmacos-macos-1.gif)
+![](../.gitbook/assets/gibmacos-macos-1.gif)
 
