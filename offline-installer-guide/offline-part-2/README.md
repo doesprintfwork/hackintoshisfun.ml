@@ -38,7 +38,7 @@
 6. Close it and run TransMac as Administrator
 7. Click on your USB and go to `macOS Base System (or OS X Base System)/Install macOS xxx.app/Contents`
 8. Drag and drop the prepared SharedSupport folder here
-9. Done! Proceed to the [next part](../../clover-installtion/usb-clover/usb-clover-win.md)!
+9. Done! Proceed to the [next part](../../clover-installtion/usb-clover/README#configuring-clover-in-windows)!
 
 ![Steps 1 - 5](../../_images/ezgif-4-3f1d85748df0.gif)
 
@@ -54,7 +54,7 @@
 4. Open Terminal.
 5. Type `sudo [drag and drop createinstallmedia here] --volume /Volumes/USB` and enter.
 6. Follow the instructions. Be patient as it will take a lot of time.
-7. Go to this [page](../../clover-installtion/usb-clover/usb-clover-macos.md) after finishing this part.
+7. Go to this [page](../../clover-installtion/usb-clover/README#install-and-configuring-clover-in-macos) after finishing this part.
 
 ![Step 1](../../_images/ezgif-4-8c9decf9eb06.gif)
 
