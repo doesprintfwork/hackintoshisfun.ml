@@ -82,7 +82,7 @@
     ```
     More explanations [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/clover-setup).
 3. When it is finished, a volume call EFI should be mounted. Replace the original config.plist in `EFI/EFI/CLOVER` with the config.plist you've made.
-4. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../../prerequisites/get-started/gathering-kexts.md)\) to `EFI/EFI/CLOVER/kexts/Other` folder.
+4. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../../prerequisites/get-started#gathering-kexts)\) to `EFI/EFI/CLOVER/kexts/Other` folder.
 5. You have finally made the installer! You can proceed to the [next part](../../actual-installation/actual-installation-part-1.md)! Yay! 🥳 
 
 ![Steps 3 - 4 \(Copy files to Clover\)](../../.gitbook/assets/ezgif-4-7eed77270d16.gif)
