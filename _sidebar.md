@@ -13,11 +13,11 @@
     * [Download the Installer](/download/download.md)
 
 * <big><b>Network Installer Guide</b></big>
-    * [Preparing the installer ](/network-installer-guide/network-part-2/README.md)
+    * [Preparing the installer ](/network-installer-guide/network/README.md)
 
 * <big><b>Offline Installer Guide</b></big>
-    * [Preparing the installer - Part 1](/offline-installer-guide/offline-part-2/README.md)
-    * [Preparing the installer - Part 2](/offline-installer-guide/offline-part-3/README.md)
+    * [Preparing the installer - Part 1](/offline-installer-guide/offline-part-1/README.md)
+    * [Preparing the installer - Part 2](/offline-installer-guide/offline-part-2/README.md)
 
 * <big><b>USB Clover Installation</a></b></big>
     * [Clover Time!](/clover-installtion/usb-clover/README.md)
