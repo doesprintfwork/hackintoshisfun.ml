@@ -9,14 +9,14 @@
 * **至少 4GB 的 USB（在線）或 8GB 的 USB（離線）**
 * 你的電腦需要的 Kexts（內核擴展）\([準備 Kexts](gathering-kexts.md)\)
 * [gibMacOS](https://github.com/corpnewt/gibMacOS) 的 Clone（克隆）
-* \*\*\*\*[**PYTHON 3**](https://www.python.org/downloads/)\*\*\*\*
+* [**PYTHON 3**](https://www.python.org/downloads/)
 
 ### **四葉草引導的 Config.plist（設定檔）**
 
 * **請到這裡** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **閱讀 Plist 基本，然後用 Clover Configurator 或 Clover Cloud Editor 或 ProperTree （由國外大神 CorpNewt 製作）製作自己的 config.plist**
   * _**請勿使用樣本 config**_
 * **閱讀完後，到**[**這裡**](../amd-clover-config.plist/)**製作自己的 config**
-* \*\*\*\*[**AptioMemoryFix.efi**](https://cdn.discordapp.com/attachments/251043252046659586/609234258732515329/AptioFix-R27-RELEASE.zip) **\(Clover 自帶的版本可能會有問題\)**
+* [**AptioMemoryFix.efi**](https://cdn.discordapp.com/attachments/251043252046659586/609234258732515329/AptioFix-R27-RELEASE.zip) **\(Clover 自帶的版本可能會有問題\)**
 
 ### 建議
 
@@ -26,7 +26,7 @@
 
 # 線上安裝準備
 
-!> 你需要 **LAN \(乙太網路\) 連線。如果你沒有，**請使用[**離線安裝**](offline-installer-prerequisites.md)
+!> 你需要 LAN \(乙太網路\) 連線。如果你沒有，請使用[**離線安裝**](offline-installer-prerequisites.md)
 
 ### 一般
 
@@ -35,11 +35,11 @@
 ### 在 macOS 中製作安裝器
 
 * [Clover install package](https://cloverdb.com)
-  * 使用最新的，請記得版本
+  * 使用 r5092
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
   * 在 macOS 編輯 config.plist
 
-### 在 Windows 中製作安裝器
+### 目前有問題 ~~在 Windows 中製作安裝器~~
 
 * [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php)
   * 在 Windows 編輯 config.plist

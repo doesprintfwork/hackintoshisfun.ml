@@ -1,7 +1,7 @@
 <h1 style='text-align: center'><img src='./logo.png' style='height: 150px' /></h1>
 
 * Home
-    * [All-in-one Vanilla AMD 黑蘋果教學](/README.md)
+    * [Vanilla AMD 黑蘋果教學](/README.md)
 
 * 這是啥？
     * [介紹](/what-is-this/introduction.md)
