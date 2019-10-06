@@ -303,5 +303,5 @@ This setting will force `nvda_drv=1` on every boot, this is recommended for user
 
 At this point, you can do _File -&gt; Save_ to save the config.plist \(or go back to home page and download your config.plist if you are using CCE\). Keep it to somewhere you'll remember.
 
-Now go to the next page to configure SMBIOS.
+Now go to the [next page](./smbios.md) to configure SMBIOS.
 
