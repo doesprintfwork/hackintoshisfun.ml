@@ -13,7 +13,7 @@
 5. The app will start to format your disk into 2 partition: 1. CLOVER \(the EFI partition. BDU will auto install Clover to it\) 2. HFS+ \(for your Installer Resources\)
 6. Once it is done, do not close the window
 
-![](../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
+![](../../_images/ezgif-4-b59bb851e67a.gif)
 
 ## Phase 2 -- Extract and Restore Files from BaseSystem.dmg <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
 
@@ -40,9 +40,9 @@
 8. Drag and drop the prepared SharedSupport folder here
 9. Done! Proceed to the [next part](../../clover-installtion/usb-clover/usb-clover-win.md)!
 
-![Steps 1 - 5](../../.gitbook/assets/ezgif-4-3f1d85748df0.gif)
+![Steps 1 - 5](../../_images/ezgif-4-3f1d85748df0.gif)
 
-![Steps 6 - 8](../../.gitbook/assets/2019-06-16-22-29-_2.gif)
+![Steps 6 - 8](../../_images/2019-06-16-22-29-_2.gif)
 
 ---
 
@@ -56,7 +56,7 @@
 6. Follow the instructions. Be patient as it will take a lot of time.
 7. Go to this [page](../../clover-installtion/usb-clover/usb-clover-macos.md) after finishing this part.
 
-![Step 1](../../.gitbook/assets/ezgif-4-8c9decf9eb06.gif)
+![Step 1](../../_images/ezgif-4-8c9decf9eb06.gif)
 
-![Steps 2 - 6](../../.gitbook/assets/ezgif-4-cde07ffbd394.gif)
+![Steps 2 - 6](../../_images/ezgif-4-cde07ffbd394.gif)
 
