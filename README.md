@@ -1,4 +1,4 @@
-# All-in-one Vanilla AMD Hackintosh Guide
+# Vanilla AMD Hackintosh Guide
 
 Do you want a working Hackintosh without any other extra trash in your Hackintosh? Have you been waiting for a long time for an All-in-one AMD Hackintosh Guide?
 
