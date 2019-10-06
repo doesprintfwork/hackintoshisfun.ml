@@ -46,18 +46,20 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 
 #### AppleALC \(on Ryzen ONLY\)
 
+?> ***Recommended way (Device Properties)***
+
 1. Mount the EFI partition of your disk
-2. Download AppleALC.kext and put it to `EFI/CLOVER/kexts/Other` if you haven't yet.
+2. Download AppleALC.kext and put it to `EFI/CLOVER/kexts/Other` if you haven't yet
 3. Download the latest release of [gfxutil](https://github.com/acidanthera/gfxutil/releases)
 4. Open Terminal
 5. Drag and drop the downloaded gfxutil to the Terminal Window and type `-f HDEF`
-6. **If you do not have output, read** [how to change AZAL to HDEF](/post-installation/posty.md#change-azal-to-hdef) **first and run again.**
+6. **If you do not have output, read** [how to change AZAL to HDEF](/post-installation/posty.md#change-azal-to-hdef) **first and run again**
 7. The output should be something like this: `PciRoot(0x0)/Pci(0x1f,0x3)`
-8. Go to the Specification page of your Motherboard on the official site and find the Audio Codec on your board.
+8. Go to the Specification page of your Motherboard on the official site and find the Audio Codec on your board
 9. Go to [this page](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and find your layout of your Codec. A layout should be a _**NUMBER.**_ A Codec should have more than one Layout ID. But if it isn't listed out, unfortunately you need to use VoodooHDA.
-10. Mount the EFI partition and open config.plist with Clover Configurator or ProperTree Plist Editor.
-11. Go to Devices &gt; Properties and add the properties below.
-12. Save and Reboot.
+10. Open config.plist in the EFI partition with Clover Configurator or ProperTree Plist Editor
+11. Go to Devices &gt; Properties and add the properties below
+12. Save and reboot.
 
 | Devices | Properties Key | Properties Value | Value Type |
 | :--- | :--- | :--- | :--- |
@@ -69,13 +71,22 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 | :--- | :--- | :--- | :--- |
 | PciRoot\(0x0\)/Pci\(0x1f,0x3\) | layout-id | 07 | DATA |
 
-?> Note: You'll loss 3.5mm Audio Input \(Microphone\) support. But VoodooHDA will fix it. NO FX SUPPORT
+?> ***Alternative Way (Boot arg)***
+
+1. Mount the EFI partition of your disk
+2. Download AppleALC.kext and put it to `EFI/CLOVER/kexts/Other` if you haven't yet
+3. Go to [this page](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and find your layout of your Codec. A layout should be a _**NUMBER.**_ A Codec should have more than one Layout ID. But if it isn't listed out, unfortunately you need to use VoodooHDA
+4. Open config.plist in the EFI partition with Clover Configurator or ProperTree Plist Editor
+5. Go to Boot &gt; Boot Args and add `alcid=XX` (eg: alcid=1)
+6. Save and reboot
+
+!> Note: You'll loss 3.5mm Audio Input \(Microphone\) support. But VoodooHDA will fix it. NO FX SUPPORT
 
 #### VoodooHDA
 
 * Nothing to do. Audio should work OOB.
 
-?> Note: Worse audio quality than AppleALC.
+!> Note: Worse audio quality than AppleALC.
 
 #### Change AZAL to HDEF
 
