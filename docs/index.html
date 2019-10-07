@@ -33,7 +33,7 @@
           --sidebar-toggle-background: #555;
           --sidebar-toggle-icon-color: #aaa;
           --sidebar-width: 18rem;
-          --sidebar-padding: 0 50px;
+          --sidebar-padding: 0 25px;
           --pagination-border-top: 1px solid #aaa;
           --table-cell-border-color: #444;
           --table-row-odd-background: #222;
@@ -60,7 +60,10 @@
       relativePath: true,
       pagination: {
           crossChapter: true,
-      }
+      },
+      plugins: [
+                EditOnGithubPlugin.create('https://github.com/doesprintfwork/hackintoshisfun.ml/tree/guide/docs')
+      ]
     }
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
