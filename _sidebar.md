@@ -15,17 +15,17 @@
     * [Download the Installer](/download/download.md)
 
 * <big><b>Network Installer Guide</b></big>
-    * [Preparing the installer ](/network-installer-guide/network/README.md)
+    * [Part 1](/network-installer-guide/network/README.md)
 
 * <big><b>Offline Installer Guide</b></big>
-    * [Preparing the installer - Part 1](/offline-installer-guide/offline-part-1/README.md)
-    * [Preparing the installer - Part 2](/offline-installer-guide/offline-part-2/README.md)
+    * [Part 1](/offline-installer-guide/offline-part-1/README.md)
+    * [Part 2](/offline-installer-guide/offline-part-2/README.md)
 
 * <big><b>USB Clover Installation</a></b></big>
     * [Clover Time!](/clover-installtion/usb-clover/README.md)
 * <big><b>Actual Installation</b></big>
-    * [Actual Installation - Part 1](/actual-installation/actual-installation-part-1.md)
-    * [Actual Installation - Part 2](/actual-installation/actual-installation-part-2.md)
+    * [Part 1](/actual-installation/actual-installation-part-1.md)
+    * [Part 2](/actual-installation/actual-installation-part-2.md)
 
 * <big><b>Post Installation</b></big>
     * [Posty!!!](/post-installation/posty.md)
