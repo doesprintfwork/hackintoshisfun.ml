@@ -64,39 +64,43 @@
       </style>
 </head>
 <body>
-  <div id="app"></div>
-  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: '',
-      alias: {
-          '/.*/_navbar.md': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide/docs/_navbar.md',
-          '/zh-hk/(.*)': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide-zh-hk/docs/$1',
-          '/(.*)': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide/docs/$1',
-      },
-      loadSidebar: true,
-      auto2top: true,
-      subMaxLevel: 2,
-      relativePath: true,
-      ga: 'UA-149510894-1',
-      loadNavbar: true,
-      pagination: {
-          crossChapter: true,
-      },
-      search: {
-        noData: {
-          '/zh-hk/': '没有结果!',
-          '/': 'No results!'
-        },
-        placeholder: {
-          '/zh-hk/': '搜索',
-          '/': 'Search'
-        }
-      },
-      plugins: [
-                EditOnGithubPlugin.create('https://github.com/doesprintfwork/hackintoshisfun.ml/tree/guide/docs/')
-      ]
+    <nav class="app-nav no-badge">
+        <ul>
+            <li>
+                <span>Language</span>
+                <ul>
+                    <li>
+                        <a href='https://guide-zh-hk.hackintoshisfun.ml/#/README'>繁體中文</a>
+                    </li>
+                    <li>
+                        <a href='https://guide.hackintoshisfun.ml/#/README'>English</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="app"></div>
+    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+    <script>
+        window.$docsify = {
+            name: '',
+            repo: '',
+            alias: {
+                '/.*/_navbar.md': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide/docs/_navbar.md',
+                '/zh-hk/(.*)': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide-zh-hk/docs/$1',
+                '/(.*)': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide/docs/$1',
+            },
+            loadSidebar: true,
+            auto2top: true,
+            subMaxLevel: 2,
+            relativePath: true,
+            ga: 'UA-149510894-1',
+            pagination: {
+                crossChapter: true,
+            },
+            plugins: [
+                      EditOnGithubPlugin.create('https://github.com/doesprintfwork/hackintoshisfun.ml/tree/guide/docs/')
+                      ]
     }
   </script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
