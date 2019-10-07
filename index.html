@@ -60,6 +60,9 @@
       relativePath: true,
       pagination: {
           crossChapter: true,
+      },
+      plugins: {
+          EditOnGithubPlugin.create('https://github.com/doesprintfwork/hackintoshisfun.ml/tree/guide')
       }
     }
   </script>
@@ -72,6 +75,7 @@
 
     gtag('config', 'UA-149510894-1');
   </script>
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
