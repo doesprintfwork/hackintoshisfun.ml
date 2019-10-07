@@ -1,8 +1,6 @@
 # Preparing the installer - Part 1
 
----
-
-# From Windows
+## From Windows
 
 1. Plug in your USB.
 2. Run MakeInstall.bat inside the gibMacOS folder.
@@ -13,9 +11,7 @@
 
 ![](../../_images/ezgif-4-8fa1279bb84c.gif)
 
----
-
-# From macOS
+## From macOS
 
 1. Rename the downloaded `XXXX.pkg` to `XXXX.dmg`
 2. Double click on it and a it will mount a new volume

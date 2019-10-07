@@ -1,7 +1,3 @@
-# <big>Clover Time!</big>
-
----
-
 # Configuring Clover in Windows
 
 ## Part 1 - Config and Kexts
