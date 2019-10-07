@@ -1,7 +1,7 @@
 <h1 style='text-align: center'><img src='./logo.png' style='height: 150px' /></h1>
 
 * <big><b>Home</b></big>
-    * [All-in-one Vanilla AMD Hackintosh Guide](/README.md)
+    * [Vanilla AMD Hackintosh Guide](/README.md)
 
 * <big><b>What is this?</b></big>
     * [Introduction](/what-is-this/introduction.md)
