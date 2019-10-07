@@ -71,17 +71,28 @@
       name: '',
       repo: '',
       alias: {
+          '/.*/_navbar.md': '/_navbar.md',
           '/zh-hk/(.*)': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide/docs/zh-hk/$1'
-      }
+      },
       loadSidebar: true,
       auto2top: true,
-      logo: '/_images/logo.png',
       subMaxLevel: 2,
       relativePath: true,
       ga: 'UA-149510894-1',
       loadNavbar: true,
       pagination: {
           crossChapter: true,
+      },
+      search: {
+        noData: {
+          '/zh-hk/': '没有结果!',
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/zh-hk/': '搜索',
+          '/': 'Search'
+        }
       },
       plugins: [
                 EditOnGithubPlugin.create('https://github.com/doesprintfwork/hackintoshisfun.ml/tree/guide/docs/')
