@@ -3,8 +3,6 @@
 
 !> <big>_**Please READ everything CAREFULLY!**_</big>
 
----
-
 # General Prerequisites
 
 ### General
@@ -12,11 +10,11 @@
 * An 8GB+ USB flash drive for the installer
 * Kexts for your system \([Gathering Kexts](gathering-kexts.md)\)
 * A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS)
-* [PYTHON 3](https://www.python.org/downloads/)
+* [**PYTHON 3**](https://www.python.org/downloads/)
 
 ### The config file for Clover:
 
-* **PLEASE READ THE PLIST BASICS OVER** [HERE](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with Clover Configurator** \(On macOS\)**,** [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(On Windows\) **or ProperTree config editor** \(Cross Platform Plist Editor, but difficult for people without any basis at programming\)**.**
+* **PLEASE READ THE PLIST BASICS OVER** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with Clover Configurator** \(On macOS\)**,** [**Clover Cloud Editor**](http://cloudclovereditor.altervista.org/cce/index.php) \(On Windows\) **or ProperTree config editor** \(Cross Platform Plist Editor, but difficult for people without any basis at programming\)**.**
   * _**DO NOT GET THE SAMPLE CONFIG.**_
 * **After reading the plist basics guide, go to** [this page](../amd-clover-config.plist/README.md) **to make your own config.plist**.
 * [AptioMemoryFix.efi](https://cdn.discordapp.com/attachments/251043252046659586/609234258732515329/AptioFix-R27-RELEASE.zip) **\(the one from the Clover Installer may be broken\)**
@@ -25,18 +23,18 @@
 
 # Network Installer Prerequisites
 
-You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have, please make an~~ [~~**Offline Installer**](#offline-installer-prerequisites.md) instead.
+You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have, please make an [**Offline Installer**](#offline-installer-prerequisites.md) instead.
 
 ### General
 
-* You **MUST** have fast Internet Speed \(at least 20 Mbps\). If your Internet Speed is slow, make an Offline Installer instead as the Installer might be locked while installing.~~
+* You **MUST** have fast Internet Speed \(at least 20 Mbps\). If your Internet Speed is slow, make an Offline Installer instead as the Installer might be locked while installing.
 
 ### Preparation for making an Offline Installer from macOS
 
 * [Clover install package](https://cloverdb.com) \(Get r5092 as the latest version is broken\)
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
 
-### Currently Broken ~~Preparation for making an Network Installer from Windows~~
+### Preparation for making an Network Installer from Windows
 
 * [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(You'll need this site later for making you config.plist\)
 
@@ -134,5 +132,3 @@ All the kexts shown here \(except SmallTreeIntel82576\) are available for downlo
 * [AppleALC](https://github.com/acidanthera/AppleALC)
 * [NullCPUPowerManagement](https://github.com/corpnewt/NullCPUPowerManagement)
 * [VoodooHDA](https://sourceforge.net/p/voodoohda/code/HEAD/tree/)
-
----

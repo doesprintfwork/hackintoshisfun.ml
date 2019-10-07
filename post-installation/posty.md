@@ -6,7 +6,7 @@ Download link for [Clover Configurator](https://mackie100projects.altervista.org
 
 ?> If the newest link doesn't work, download an older one instead.
 
-### Mount EFI
+## Mount EFI
 
 You'll always need to mount EFI for modification.
 
@@ -17,7 +17,7 @@ You'll always need to mount EFI for modification.
 5. Enter your password.
 6. Done.
 
-### Clover Installation
+## Clover Installation
 
 We'll need to install Clover to your hard disk. Without that, you won't be able to boot to macOS.
 
@@ -42,11 +42,11 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 10. Copy the kexts and config to your EFI partition \(like what you do before\)
 11. Done.
 
-### Audio
+## Audio
 
-#### AppleALC \(on Ryzen ONLY\)
+### AppleALC \(on Ryzen ONLY\)
 
-?> ***Recommended way (Device Properties)***
+#### Recommended way (Device Properties)
 
 1. Mount the EFI partition of your disk
 2. Download AppleALC.kext and put it to `EFI/CLOVER/kexts/Other` if you haven't yet
@@ -61,9 +61,6 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 11. Go to Devices &gt; Properties and add the properties below
 12. Save and reboot.
 
-| Devices | Properties Key | Properties Value | Value Type |
-| :--- | :--- | :--- | :--- |
-| &lt;The device path you get with gfxutil&gt; | layout-id | &lt;The layout for your codec in format of XX&gt; | DATA |
 
 **Example:**
 
@@ -71,7 +68,9 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 | :--- | :--- | :--- | :--- |
 | PciRoot\(0x0\)/Pci\(0x1f,0x3\) | layout-id | 07 | DATA |
 
-?> ***Alternative Way (Boot arg)***
+?> If the above method doesn't work, try the [alternative method](#alternative-way-boot-arg)
+
+#### Alternative Way (Boot arg)
 
 1. Mount the EFI partition of your disk
 2. Download AppleALC.kext and put it to `EFI/CLOVER/kexts/Other` if you haven't yet
@@ -82,13 +81,13 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 
 !> Note: You'll loss 3.5mm Audio Input \(Microphone\) support. But VoodooHDA will fix it. NO FX SUPPORT
 
-#### VoodooHDA
+### VoodooHDA
 
 * Nothing to do. Audio should work OOB.
 
 !> Note: Worse audio quality than AppleALC.
 
-#### Change AZAL to HDEF
+### Change AZAL to HDEF
 
 1. Mount the EFI partition.
 2. Open config.plist with Clover Configurator or ProperTree Plist Editor.

@@ -15,7 +15,7 @@ To start the installation:
 7. When you get to the Installer screen \(it may take several minutes for it to load\):
 8. **Skip this step if you made an Offline Installer.** Open Utilities &gt; Network Utility. Check if there is a connection, if not, check your LAN cable, and your LAN drivers from above. Close it after you have finish checking.
 9. Select Disk Utility, select View &gt; Show all Devices, select the drive to format, format it as:
-    ```text
+    ```
     Name:   <Whatever you want>
     Format: APFS
     Scheme: GUID Partition Map

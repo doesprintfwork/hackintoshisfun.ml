@@ -5,7 +5,7 @@
 * Please get the patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist)\) from AMD OS X Github \(Right click, Save Page As, Remember to change the suffix to .plist\)
 * Open patches.plist with Clover Configurator \(CCG\) or [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\).
 
-?> **If you are using CCE**, please go to home page and set _`Show Find/Replace/TgtBridge values as:`_to_`Hex`_because the following CCE screenshots are in Hex.
+?> **If you are using CCE**, please go to home page and set *`Show Find/Replace/TgtBridge values as:`* to *`Hex`* because the following CCE screenshots are in Hex.
 
 ---
 
@@ -251,7 +251,7 @@ We set _Rt Variables -&gt; ROM_ to `UseMacAddr0` which just utilizes our onboard
 
 _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which effectively disables SIP **as SIP is not supported on AMD Systems unfortunately**.
 
-**SMBIOS:** Skip this first
+**SMBIOS:** We will configure this later.
 
 ## CCE Screenshot
 

@@ -28,7 +28,7 @@
 1. Open the Clover installer.
 2. Install it to your USB with these settings. \(Choose Customize in `Installation Type` part\)
     * **UEFI:** 
-    ```text
+    ```
         Clover for UEFI booting only Install Clover in the ESP
         Recommended Drivers:
         - ApfsDriverLoader
