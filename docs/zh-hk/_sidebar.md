@@ -26,11 +26,11 @@
 * 安裝 Clover 
     * [四葉草時間！](/clover-installtion/usb-clover/README.md)
 
-* 真實安裝 <a id="actual-installation"></a>
+* 真實安裝
     * [安裝 - 第一部分](/actual-installation/actual-installation-part-1.md)
     * [安裝 - 第二部分](/actual-installation/actual-installation-part-2.md)
 
-* 安裝了 然後咧 <a id="post-installation"></a>
+* 安裝了 然後咧
     * [後繼安裝](/post-installation/posty.md)
     * [FAQs](/post-installation/faqs.md)
 

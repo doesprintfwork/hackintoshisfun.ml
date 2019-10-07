@@ -49,22 +49,18 @@
           --search-clear-icon-color2: #222;
           --search-input-background-image: url("data:image/svg+xml,%3Csvg height='20px' width='20px' viewBox='0 0 24 24' fill='none' stroke='rgba(255, 255, 255, 0.3)' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10.5' cy='10.5' r='7.5' vector-effect='non-scaling-stroke'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='15.8' y2='15.8' vector-effect='non-scaling-stroke'%3E%3C/line%3E%3C/svg%3E");
       }
-  ::-webkit-scrollbar {
-    width: 5px;
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #666;
-  }
-  
-  ::-webkit-scrollbar-thumb:active {
-    background: #555;
-  }
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #666;
+    }
+    ::-webkit-scrollbar-thumb:active {
+        background: #555;
+    }
       </style>
 </head>
 <body>
@@ -74,12 +70,16 @@
     window.$docsify = {
       name: '',
       repo: '',
+      alias: {
+          '/zh-hk/(.*)': 'https://raw.githubusercontent.com/doesprintfwork/hackintoshisfun.ml/guide/docs/zh-hk/$1'
+      }
       loadSidebar: true,
       auto2top: true,
       logo: '/_images/logo.png',
       subMaxLevel: 2,
       relativePath: true,
       ga: 'UA-149510894-1',
+      loadNavbar: true,
       pagination: {
           crossChapter: true,
       },
