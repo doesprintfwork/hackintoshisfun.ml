@@ -4,7 +4,9 @@
 
 # From Windows
 
-## Phase 1 -- Format, Partition, and Install Clover to your USB <a id="phase-1-format-partition-and-install-clover-to-your-usb"></a>
+?> For OpenCore, follow these steps to install clover first. There is an extra phase for changing it to OpenCore
+
+## Phase 1 -- Format, Partition, and Install Clover to your USB
 
 1. Plug in your USB if you haven't plug it in yet
 2. Open BDU
@@ -15,7 +17,7 @@
 
 ![](../../_images/ezgif-4-b59bb851e67a.gif)
 
-## Phase 2 -- Extract and Restore Files from BaseSystem.dmg <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
+## Phase 2 -- Extract and Restore Files from BaseSystem.dmg
 
 1. Go to BDU &gt; Tools &gt; Extract HFS \(HFS+\) from DMG-file.
 2. Select the BaseSystem.dmg from the downloaded folder.
@@ -38,11 +40,13 @@
 6. Close it and run TransMac as Administrator
 7. Click on your USB and go to `macOS Base System (or OS X Base System)/Install macOS xxx.app/Contents`
 8. Drag and drop the prepared SharedSupport folder here
-9. Done! Proceed to the [next part](../../clover-installtion/usb-clover/README#configuring-clover-in-windows)!
+9. Done! Read the extra phase to change the boot-loader to OpenCore or proceed to the [next part](../../clover-installtion/usb-clover/README#configuring-clover-in-windows)!
 
 ![Steps 1 - 5](../../_images/ezgif-4-3f1d85748df0.gif)
 
 ![Steps 6 - 8](../../_images/2019-06-16-22-29-_2.gif)
+
+## Extra Phase -- Changing boot-loader to OpenCore
 
 ---
 

@@ -6,23 +6,28 @@
 * **What is this?**
     * [Introduction](/what-is-this/introduction/)
 
-* **Prerequisites**
-    * [Get Started](/prerequisites/get-started/)
-    * [AMD Clover config.plist](/prerequisites/amd-clover-config/)
-    * [SMBIOS](/prerequisites/amd-clover-config/smbios/)
+* **Get Started**
+    * [Prerequisites](/get-started/prerequisites/)
 
 * **Download**
     * [Download the Installer](/download/)
 
 * **Network Installer Guide**
-    * [Part 1](/network-installer-guide/network/)
+    * [Preparing the installer](/network-installer-guide/network/)
 
 * **Offline Installer Guide**
     * [Part 1](/offline-installer-guide/offline-part-1/)
     * [Part 2](/offline-installer-guide/offline-part-2/)
 
 * **USB Clover Installation**
-    * [Clover Time!](/clover-installtion/usb-clover/)
+    * [Clover Config](/clover-installation/config/)
+        * [SMBIOS](/clover-installation/config/smbios/)
+    * [Clover Time!](/clover-installation/usb-clover/)
+
+* **USB OpenCore Installation**
+    * [OpenCore Config](/opencore-installation/config/)
+    * [OpenCore Time!](/opencore-installation/usb-opencore/)
+
 * **Actual Installation**
     * [Part 1](/actual-installation/actual-installation-part-1/)
     * [Part 2](/actual-installation/actual-installation-part-2/)
