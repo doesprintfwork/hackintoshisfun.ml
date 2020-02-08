@@ -4,10 +4,10 @@
     * [Vanilla AMD Hackintosh Guide](/)
 
 * **What is this?**
-    * [Introduction](/what-is-this/introduction.md)
+    * [Introduction](/what-is-this/introduction/)
 
 * **Prerequisites**
-    * [Get Started](/prerequisites/get-started/README.md)
+    * [Get Started](/prerequisites/get-started/)
     * [AMD Clover config.plist](/prerequisites/amd-clover-config/)
     * [SMBIOS](/prerequisites/amd-clover-config/smbios/)
 
