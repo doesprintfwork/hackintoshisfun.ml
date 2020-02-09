@@ -1,40 +1,36 @@
 <h1 style='text-align: center'><img src='./logo.png' style='height: 150px' /></h1>
 
-* **Home**
-    * [Vanilla AMD Hackintosh Guide](/)
+* Home
+    * [Vanilla AMD 黑蘋果教學](/zh-cht/)
 
-* **What is this?**
-    * [Introduction](/what-is-this/introduction/)
+* 這是啥？
+    * [介紹](/zh-cht/what-is-this/introduction/)
 
-* **Get Started**
-    * [Prerequisites](/get-started/prerequisites/)
+* 準備
+    * [來吧！](/zh-cht/prerequisites/get-started/)
+    * [AMD Clover config.plist](/zh-cht/prerequisites/amd-clover-config.plist/)
+        * [SMBIOS](/zh-cht/prerequisites/amd-clover-config.plist/smbios.md)
 
-* **Download**
-    * [Download the Installer](/download/)
+* 下載
+    * [下載安裝程序](/zh-cht/download/README.md)
 
-* **Network Installer Guide**
-    * [Preparing the installer](/network-installer-guide/network/)
+* 線上安裝
+    * [準備安裝 - 第一部分](/zh-cht/network-installer-guide/network-part-1/)
 
-* **Offline Installer Guide**
-    * [Part 1](/offline-installer-guide/offline-part-1/)
-    * [Part 2](/offline-installer-guide/offline-part-2/)
+* 離線安裝
+    * [準備安裝 - 第一部分](/zh-cht/offline-installer-guide/offline-part-1/)
+    * [準備安裝 - 第二部分](/zh-cht/offline-installer-guide/offline-part-2/)
 
-* **USB Clover Installation**
-    * [Clover Config](/clover-installation/config/)
-        * [SMBIOS](/clover-installation/config/smbios/)
-    * [Clover Time!](/clover-installation/usb-clover/)
+* 安裝 Clover 
+    * [四葉草時間！](/zh-cht/clover-installtion/usb-clover/)
 
-* **USB OpenCore Installation**
-    * [OpenCore Config](/opencore-installation/config/)
-    * [OpenCore Time!](/opencore-installation/usb-opencore/)
+* 真實安裝
+    * [安裝 - 第一部分](/zh-cht/actual-installation/actual-installation-part-1.md)
+    * [安裝 - 第二部分](/zh-cht/actual-installation/actual-installation-part-2.md)
 
-* **Actual Installation**
-    * [Part 1](/actual-installation/actual-installation-part-1/)
-    * [Part 2](/actual-installation/actual-installation-part-2/)
+* 安裝了 然後咧
+    * [後繼安裝](/zh-cht/post-installation/posty.md)
+    * [FAQs](/zh-cht/post-installation/faqs.md)
 
-* **Post Installation**
-    * [Posty!!!](/post-installation/posty/)
-    * [FAQs](/post-installation/faqs/)
-
-* **Credits**
-    * [Credits](/credits/)
+* 鳴謝
+    * [鳴謝](/zh-cht/credits/credits.md)

@@ -1,4 +1,4 @@
-# Actual Installation - Part 2
+# 安裝 - 第二部分
 
 ## Now you're ready to plug-n-play.
 
@@ -14,12 +14,7 @@ To start the installation:
    * Note2: If you get a black screen at the end of the installer on Intel HD GPUs, reboot to Clover, Press `O` \(letter\), go to Graphics Injection, change FakeID to 0x12345678, go back and boot. You will have to do this on every reboot until you get to the desktop. The Graphics will be slow and sluggish, fix it asap. Use google then.
 7. When you get to the Installer screen \(it may take several minutes for it to load\):
 8. **Skip this step if you made an Offline Installer.** Open Utilities &gt; Network Utility. Check if there is a connection, if not, check your LAN cable, and your LAN drivers from above. Close it after you have finish checking.
-9. Select Disk Utility, select View &gt; Show all Devices, select the drive to format, format it as:
-    ```
-    Name:   <Whatever you want>
-    Format: APFS
-    Scheme: GUID Partition Map
-    ```
+9. Select Disk Utility, select View &gt; Show all Devices, select the drive to format, format it as: `Name:`  **`<Whatever you want>`** `Format:`**`APFS`** \(if you are installing macOS Mojave or installing macOS High Sierra to an SSD\)        ``**`MacOS Extended Journaled`** \(if you are installing macOS High Sierra to an HDD\) `Scheme:`**`GUID Partition Map`**
    * Note: if you want to multiboot, go [here](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/) \[reminder\]
    * Note2: _**DATA == GONE, BYE**_
 10. Click on Disk Utility on top &gt; Quit Disk Utility.
@@ -30,6 +25,3 @@ To start the installation:
 
 After that, it will reboot for the second stage of the install, boot clover, it should now autoselect `Boot Install macOS from <your disk name>`. If not, select it on your own and boot it up, let it finish.
 
-[**DONE!!!**](../../post-installation/posty/)
-
-<a href="#" onclick="window.history.back()">Go back</a>
