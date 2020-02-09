@@ -6,16 +6,19 @@
 
 ## Start!
 
+1. Copy the `Sample.plist` in `OpenCore release folder/Docs` to desktop and rename it to `config.plist`
 1. Open ProperTree plist editor
+2. Press Ctrl-O \(Windows\) or Cmd-O \(MacOS\)
+3. Open the `config.plist` that you have just renamed
 2. Press Ctrl-R \(Windows\) or Cmd-R \(MacOS\)
 3. Choose the OC folder you have setup
-4. At this point, the ProperTree editor will auto create an OC config for your hardware. But we still need to manually change some settings and add the AMD kernel patches
+4. At this point, the ProperTree editor will auto fill in the OC config for your hardware. But we still need to manually change some settings and add the AMD kernel patches
 
 <!-- tabs:start -->
 
 #### **Kernel**
 
-**Patches**
+**Patches (Adding AMD Kernel Patches)**
 
 1. Open patches.plist with ProperTree by pressing Ctrl-O \(Windows\) or Cmd-D \(MacOS\) in the current ProperTree window.
 2. In the new patches.plist window, click on Patch and press Ctrl-C \(Windows\) or Cmd-C \(MacOS\) to copy the patches

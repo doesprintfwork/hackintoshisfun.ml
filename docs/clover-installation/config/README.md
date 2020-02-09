@@ -3,9 +3,9 @@
 ## Before anything
 
 * Please get the patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist)\) from AMD OS X Github \(Right click, Save Page As, Remember to change the suffix to .plist\)
-* Open patches.plist with Clover Configurator \(CCG\) or [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\).
+* Open patches.plist with [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\).
 
-?> **If you are using CCE**, please go to home page and set *`Show Find/Replace/TgtBridge values as:`* to *`Hex`* because the following CCE screenshots are in Hex.
+?> Please go to home page and set *`Show Find/Replace/TgtBridge values as:`* to *`Hex`* because the following CCE screenshots are in Hex.
 
 ## ACPI
 
@@ -279,5 +279,5 @@ This setting will force `nvda_drv=1` on every boot, this is recommended for user
 
 At this point, you can do _File -&gt; Save_ to save the config.plist \(or go back to home page and download your config.plist if you are using CCE\). Keep it to somewhere you'll remember.
 
-Now go to the [next page](./smbios.md) to configure SMBIOS.
+Now go to the [next page](./smbios/) to configure SMBIOS.
 

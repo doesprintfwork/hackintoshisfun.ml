@@ -16,3 +16,6 @@
 
 ![](../_images/gibmacos-macos-1.gif)
 
+Press [**here**](../network-installer-guide/network/) for the network installer guide
+
+Press [**here**](../offline-installer-guide/offline-part-1/) for the offline installer guide

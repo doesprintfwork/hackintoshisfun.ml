@@ -48,19 +48,27 @@
 
 ## Extra Phase -- Changing boot-loader to OpenCore
 
+1. Open CLOVER volume (you can rename it if you don't like Clover)
+2. Replace the original `EFI` folder with the `EFI` folder in OpenCore release package
+3. Done! Read [next part](../../opencore-installation/usb-opencore/) to configure OpenCore
+
 ---
 
 # From macOS
 
-1. Format your USB with these settings: `Name: USB Format: MacOS Extended Journaled Scheme: GUID Partition Map`
-2. Right click on your macOS installer app\(from the previous step\) and click `Show Contents Packages`.
+1. Format your USB with these settings:
+```
+Name: USB
+Format: MacOS Extended Journaled
+Scheme: GUID Partition Map
+```
+2. Right click on your macOS installer app \(from the previous step\) and click `Show Contents Packages`.
 3. Go to `Contents/Resources` and find `createinstallmedia` inside that folder.
 4. Open Terminal.
 5. Type `sudo [drag and drop createinstallmedia here] --volume /Volumes/USB` and enter.
 6. Follow the instructions. Be patient as it will take a lot of time.
-7. Go to this [page](../../clover-installtion/usb-clover/README#install-and-configuring-clover-in-macos) after finishing this part.
+7. Go to [this page](../../clover-installation/usb-clover/README#install-and-configuring-clover-in-macos) to install clover or [this page](../../opencore-installation/usb-opencore/README#install-and-configuring-opencore-in-macos) to install OpenCore after finishing this part.
 
 ![Step 1](../../_images/ezgif-4-8c9decf9eb06.gif)
 
 ![Steps 2 - 6](../../_images/ezgif-4-cde07ffbd394.gif)
-

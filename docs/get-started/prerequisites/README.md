@@ -1,7 +1,7 @@
 # Prerequisites
 
 
-!> <big>_**Please READ everything CAREFULLY!**_</big>
+!> _**Please READ everything CAREFULLY!**_
 
 # General Prerequisites
 
@@ -10,7 +10,7 @@
 * A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS)
 * [**PYTHON 3** or above \(Recommended: 3.7, with add to PATH selected\)](https://www.python.org/downloads/)
 - **CLOVER**
-    * [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(You'll need this site later for making you config.plist\)
+    * [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php)
 - **OPENCORE**
     - [ProperTree Editor](https://github.com/corpnewt/ProperTree)
 
@@ -36,7 +36,7 @@ You'll need to have **LAN \(Ethernet\) connection** if you are making a **Networ
 ### Preparation for making an Offline Installer from macOS
 
 - **CLOVER**
-    * [Clover install package](https://github.com/CloverHackyColor/CloverBootloader/releases) \(Get the latest .pkg file and remember the version\)
+    * [Clover install package](https://github.com/Dids/clover-builder/releases) \(Get the latest .pkg file and remember the version\)
 - **OPENCORE**
     - [OpenCore latest release package](https://github.com/acidanthera/OpenCorePkg/releases)
 
@@ -64,7 +64,7 @@ You'll need to have **LAN \(Ethernet\) connection** if you are making a **Networ
 
 # Gathering Kexts
 
-?> **<big>Please keep all of the downloaded kexts to a folder. We will need them later.</big>**
+?> **Please keep all of the downloaded kexts to a folder. We will need them later**
 
 ### What Kexts Do You Need?
 
@@ -76,10 +76,12 @@ All the kexts shown here \(except SmallTreeIntel82576\) are available for downlo
 
 [VirtualSMC.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455091&cid=FE4038DA929BFB23) _\(use this\)_ or [FakeSMC.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455161&cid=FE4038DA929BFB23) \(older, if VirtualSMC doesn't work, use this instead\) is as aforementioned essential. This kext is what tells macOS "Yes this is a real Mac", emulating the functionality of the SMC on real Mac's. Without it, no Hackintosh. **Do NOT use both of the SMC kexts.**
 
-**You'll need these also.**
+**You'll need these also**
 
 * [Lilu.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) _-_ this kext acts as a loader for other kexts. More specifically it can patch kexts, processes and libraries.
 * [Whatevergreen.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455095&cid=FE4038DA929BFB23)_-_ this kext fixes a lot of GPU related issues.
+
+***You only need this if you are using Clover***
 * [NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
 
 #### Ethernet \(Choose the one you need\)
@@ -124,3 +126,5 @@ All the kexts shown here \(except SmallTreeIntel82576\) are available for downlo
 * [AppleALC](https://github.com/acidanthera/AppleALC)
 * [NullCPUPowerManagement](https://github.com/corpnewt/NullCPUPowerManagement)
 * [VoodooHDA](https://sourceforge.net/p/voodoohda/code/HEAD/tree/)
+
+[**Next Page**](../../download/) to download the installer
