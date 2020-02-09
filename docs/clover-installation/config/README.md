@@ -281,3 +281,4 @@ At this point, you can do _File -&gt; Save_ to save the config.plist \(or go bac
 
 Now go to the [next page](./smbios/) to configure SMBIOS.
 
+<a href="#" onclick="window.history.back()">Go back</a>

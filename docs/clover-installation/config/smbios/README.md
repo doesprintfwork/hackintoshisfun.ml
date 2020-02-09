@@ -22,4 +22,6 @@
 
 ![Steps 11 - 12 \(Checking Serial Number\)](../../../_images/ezgif-5-776e8fe4f7f4.gif)
 
-Press [this](../../usb-clover/) to continue configuring Clover in **windows** or [this](../../usb-clover/README#install-and-configuring-clover-in-macos) to continue configuring Clover in **macOS**
+Press [this](../../usb-clover/) to continue configuring Clover in **windows** or [this](../../usb-clover/#install-and-configuring-clover-in-macos) to continue configuring Clover in **macOS**
+
+<a href="#" onclick="window.history.back()">Go back</a>

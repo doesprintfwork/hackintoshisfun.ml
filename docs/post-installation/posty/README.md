@@ -53,7 +53,7 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 3. Download the latest release of [gfxutil](https://github.com/acidanthera/gfxutil/releases)
 4. Open Terminal
 5. Drag and drop the downloaded gfxutil to the Terminal Window and type `-f HDEF`
-6. **If you do not have output, read** [how to change AZAL to HDEF](/post-installation/posty.md#change-azal-to-hdef) **first and run again**
+6. **If you do not have output, read** [how to change AZAL to HDEF](#change-azal-to-hdef) **first and run again**
 7. The output should be something like this: `PciRoot(0x0)/Pci(0x1f,0x3)`
 8. Go to the Specification page of your Motherboard on the official site and find the Audio Codec on your board
 9. Go to [this page](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and find your layout of your Codec. A layout should be a _**NUMBER.**_ A Codec should have more than one Layout ID. But if it isn't listed out, unfortunately you need to use VoodooHDA.
@@ -96,5 +96,8 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 
 | Comments | Find | Replace | TgtBridge | Disabled |
 | :--- | :--- | :--- | :--- | :--- |
-| change AZAL to HDEF | 415A414C | 48444546 | &lt;empty&gt; | FALSE |
+| change AZAL to HDEF | 415A414C | 48444546 | | FALSE |
 
+[**Next page**](../faqs/) for FAQs
+
+<a href="#" onclick="window.history.back()">Go back</a>

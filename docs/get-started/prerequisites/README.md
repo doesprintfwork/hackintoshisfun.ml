@@ -81,8 +81,7 @@ All the kexts shown here \(except SmallTreeIntel82576\) are available for downlo
 * [Lilu.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) _-_ this kext acts as a loader for other kexts. More specifically it can patch kexts, processes and libraries.
 * [Whatevergreen.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455095&cid=FE4038DA929BFB23)_-_ this kext fixes a lot of GPU related issues.
 
-***You only need this if you are using Clover***
-* [NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
+?> ***For Clover ONLY:***<br />[NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
 
 #### Ethernet \(Choose the one you need\)
 
@@ -128,3 +127,5 @@ All the kexts shown here \(except SmallTreeIntel82576\) are available for downlo
 * [VoodooHDA](https://sourceforge.net/p/voodoohda/code/HEAD/tree/)
 
 [**Next Page**](../../download/) to download the installer
+
+<a href="#" onclick="window.history.back()">Go back</a>

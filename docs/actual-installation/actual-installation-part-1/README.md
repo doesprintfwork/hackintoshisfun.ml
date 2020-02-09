@@ -13,3 +13,6 @@
 
 * Disable anything like **APU**... that are related to integrated graphics.
 
+Press [this](../actual-installation-part-2/) to continue...
+
+<a href="#" onclick="window.history.back()">Go back</a>

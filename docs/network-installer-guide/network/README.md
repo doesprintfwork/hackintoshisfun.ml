@@ -25,8 +25,10 @@
 5. Now, choose your **USB partition** click Restore button in Disk Utility and choose Image...
 6. Choose BaseSystem.dmg on desktop and press Restore
 7. This should take some time depending on your USB speed
-8. Go to [Install and Configure Clover in macOS](../../clover-installtion/config/) or [Install and Configure OpenCore in macOS](../../opencore-installation/config/) after finishing this part
+8. Go to [Install and Configure Clover in macOS](../../clover-installation/config/) or [Install and Configure OpenCore in macOS](../../opencore-installation/config/) after finishing this part
 
 ![Steps 1 - 3](../../_images/ezgif-4-c4f2b894d040.gif)
 
 ![Steps 4 - 7](../../_images/restoring-to-usb.gif)
+
+<a href="#" onclick="window.history.back()">Go back</a>

@@ -59,3 +59,5 @@
         - `656E2D55 533A30` to set the language and the keyboard layout of the installer to English and QWERTY
 
 <!-- tabs:end -->
+
+<a href="#" onclick="window.history.back()">Go back</a>

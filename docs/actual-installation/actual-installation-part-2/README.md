@@ -30,3 +30,6 @@ To start the installation:
 
 After that, it will reboot for the second stage of the install, boot clover, it should now autoselect `Boot Install macOS from <your disk name>`. If not, select it on your own and boot it up, let it finish.
 
+[**DONE!!!**](../../post-installation/posty/)
+
+<a href="#" onclick="window.history.back()">Go back</a>
