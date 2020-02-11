@@ -67,7 +67,8 @@
         - `debug=0x100` to prevent system from rebooting when it panics
         - `keepsyms=1` to print out symbols on a kernel panic
         - `npci=0x2000` to fix booting stuck at \[PCI Start Configuration\] or half printed text. **No need if you have Above 4G Decoding enabled in Bios**
-    - ***csr-active-config***: `00000000`
+        - `agdpmod=pikera` to fix black screen with Navi GPUs. **Don't use this if you don't have Navi**
+    - *csr-active-config*: `00000000`
         - `00000000` to enabled SIP completely. Recommended
         - `30000000` to allow unsigned kexts and writing to protected fs locations
         - `E7030000` to disable SIP completely

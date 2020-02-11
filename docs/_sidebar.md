@@ -21,12 +21,12 @@
 
 * **USB Clover Installation**
     * [Clover Config](/clover-installation/config/)
-        * [SMBIOS](/clover-installation/config/smbios/)
+    * [Clover SMBIOS](/clover-installation/config/smbios/)
     * [Clover Time!](/clover-installation/usb-clover/)
 
 * **USB OpenCore Installation**
-    * [OpenCore Config](/opencore-installation/config/)
     * [OpenCore Time!](/opencore-installation/usb-opencore/)
+    * [OpenCore Config](/opencore-installation/config/)
 
 * **Actual Installation**
     * [Part 1](/actual-installation/actual-installation-part-1/)
