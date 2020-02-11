@@ -55,6 +55,7 @@
 **Security**
 - ***RequireVault***: `False`
     - `False` to disable Vault
+    - ***In the latest developing version (0.5.6), use `Optional` instead!!!***
 - *ScanPolicy*: `0`
     - `0` to show all bootable device in OC Boot list
 
