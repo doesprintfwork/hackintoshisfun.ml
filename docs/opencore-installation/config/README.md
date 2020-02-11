@@ -80,7 +80,7 @@
 
 **WriteFlash**: `True`
 
-#### UEFI
+#### **UEFI**
 
 **Input**
 - *PointerSupportMode*: blank
