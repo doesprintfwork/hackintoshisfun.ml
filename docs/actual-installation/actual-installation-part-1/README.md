@@ -8,6 +8,7 @@
 * Secure Boot: Disabled \(refer to google or your motherboard's manual on how to disable it\)
 * Legacy/CSM support: Disabled \[if you see a garbled screen, enable this\]\(You may need to disable it by disabling Windows 10 WHQL support.\)
 * **AHCI mode: SATA**
+* **Above 4G Decoding: Enabled**
 
 ### Some more configurations:
 

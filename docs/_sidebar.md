@@ -26,7 +26,7 @@
 
 * **USB OpenCore Installation**
     * [OpenCore Time!](/opencore-installation/usb-opencore/)
-    * [OpenCore SMBIOS](/opencore-installation/usb-opencore/smbios/)
+    * [OpenCore SMBIOS](/opencore-installation/config/smbios/)
     * [OpenCore Config](/opencore-installation/config/)
 
 * **Actual Installation**

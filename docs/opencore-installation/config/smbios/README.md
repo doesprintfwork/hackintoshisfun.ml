@@ -14,9 +14,8 @@
     - Other SMBIOS \(not recommended as they might cause problems\)
 11. Go to [this website](https://checkcoverage.apple.com/) to check if your serial number is valid or not. We want a **valid** serial number BUT purchased date is not validated.
 12. If you get an invalid serial number, finish. If not, redo the whole proccess until you have a **valid** serial number.
+13. Copy all the SMBIOS information to a text file. We'll need that later.
 
-![Steps 1 - 10 \(Generating SMBIOS\)](../../../_images/ezgif-5-2d971096ef3a.gif)
-
-Press [this](../../usb-clover/) to continue configuring Clover in **windows** or [this](../../usb-clover/#install-and-configuring-clover-in-macos) to continue configuring Clover in **macOS**
+Press [this](../../usb-opencore/) to continue configuring OpenCore in **windows** or [this](../../usb-opencore/#install-and-configuring-opencore-in-macos) to continue configuring OpenCore in **macOS**
 
 <a href="#" onclick="window.history.back()">Go back</a>

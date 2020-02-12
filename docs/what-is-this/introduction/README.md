@@ -16,6 +16,8 @@ Vanilla, meaning the most native way. In this way, you will learn how things wor
 
 !> **DISCLAIMER: I AM NOT RESPONSIBLE FOR ANY DATA LOSS. BACKUP BEFORE FORMATTING OR DELETING ANYTHING.**
 
+!> **Another important note: The images are quite outdated. Please don't just read images.**
+
 [**Next Page**](../../get-started/prerequisites/) to get started
 
 <a href="#" onclick="window.history.back()">Go back</a>

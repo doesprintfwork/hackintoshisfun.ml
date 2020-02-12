@@ -93,7 +93,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 **Arguments:**
 
 * **-v** - enable verbose which shows all the _behind-the-scenes_ text that scrolls by as you're booting instead of the Apple logo and progress bar. It is very helpful for tracking issues are fixing them.
-* **npci=0x2000** - a fix for stuck at \[PCI Configuration Start\].
+* **npci=0x2000** - a fix for stuck at \[PCI Configuration Start\]. Do NOT add this if you have Above 4G Decoding enabled in bios.
 
 **Default Volume** - setting the default volume for booting. 
 

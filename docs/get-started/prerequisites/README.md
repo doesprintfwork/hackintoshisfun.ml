@@ -9,10 +9,21 @@
 * Kexts for your system \([Gathering Kexts](gathering-kexts.md)\)
 * A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS)
 * [**PYTHON 3** or above \(Recommended: 3.7, with add to PATH selected\)](https://www.python.org/downloads/)
+* [AppleSupportPkg](https://github.com/acidanthera/applesupportpkg/releases)
 - **CLOVER**
     * [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php)
 - **OPENCORE**
     - [ProperTree Editor](https://github.com/corpnewt/ProperTree)
+
+# WAIT
+
+### So which boot-loader should I choose for macOS?
+
+If you want to have the latest macOS not long after it released, use OpenCore. In other words, Clover is already way tooooooooooo outdated.
+
+### Then, why would I still talk about Clover?
+
+Installing with Clover would still be a little bit easier and you can setup OpenCore in macOS much easier if you have the basis of Clover.
 
 ---
 

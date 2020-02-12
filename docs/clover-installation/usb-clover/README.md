@@ -18,6 +18,7 @@
     - `ApfsDriverLoader.efi`
     - `AptioMemoryFix.efi`
     - `HFSPlus.efi`
+    If you don't have these drivers, get them in `AppleSupportPkg`
 3. Yay! You are ready to [install macOS](../../actual-installation/actual-installation-part-1/)!🥳
 
 # Install and Configuring Clover in macOS
