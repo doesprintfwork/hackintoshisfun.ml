@@ -2,6 +2,10 @@
 
 ---
 
+# Prerequisites
+
+Make sure you've gotten all the programs needed before installing, as listed in the [Prerequisites](../../get-started/prerequisites/?id=offline-installer-prerequisites)
+
 # From Windows
 
 1. Put the PackAppWin.py \(from MakeInstallmacOS\) into the downloaded macOS Installer files folder \(i.e.: `gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
